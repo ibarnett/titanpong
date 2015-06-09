@@ -1,0 +1,649 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TitanPong</title>
+      <link href='http://fonts.googleapis.com/css?family=Anton|Roboto:500,300,700,400|Oswald:400,300|Fjalla+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/general.css">
+  </head>
+  <body>
+
+    <!-- Header Section Start -->
+  	<header class="header">
+  		<div class="header_center">
+  			<div class="header_logo fl">TITANpong</div>
+            <ul class="nav fl cf">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#rules">How to Play</a></li>
+                <li><a href="#products">Shop Products</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+            <div class="nav_respons fl">
+                <a href="javascript:;" onclick="HideShowMenu();">Navigation menu</a>
+                <ul class="nav_respons_drop" id="nav_dropdown">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="trainers.html">Trainers</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="event_opened.html">Single Event</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="news_opened.html">Single News</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="gallery_opened.html">Single Gallery</a></li>
+                    <li><a href="contact.html">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="cf"></div>
+	    </div>
+	</header>
+
+        <!-- Slider Section Start -->
+		<div class="flexslider" id="home-slider">
+		  <ul class="slides">
+		    <li style="background-image:url('css/images/title/IMG_4783.JPG');">
+		      <div class="descr">
+		      	<h1>Our fitness center</h1>
+		      	<p>Consectetur adipiscing elit.<br/>Suspendisse libero purus, porta in molestie malesuada, aliquam at ante.</p>
+		      	<div class="descr_link"><a href="#">Take a look</a></div>
+		      </div>
+		    </li>
+		    <li style="background-image:url('css/images/title/IMG_4805.JPG');">
+		      <div class="descr">
+		      	<h1>Our fitness center</h1>
+		      	<p>Consectetur adipiscing elit.<br/>Suspendisse libero purus, porta in molestie malesuada, aliquam at ante.</p>
+		      	<div class="descr_link"><a href="#">Take a look</a></div>
+		      </div>
+		    </li>
+		    <li style="background-image:url('css/images/title/IMG_4807.JPG');">
+		      <div class="descr">
+		      	<h1>Our fitness center</h1>
+		      	<p>Consectetur adipiscing elit.<br/>Suspendisse libero purus, porta in molestie malesuada, aliquam at ante.</p>
+		      	<div class="descr_link"><a href="#">Take a look</a></div>
+		      </div>
+		    </li>
+              <li style="background-image:url('css/images/title/IMG_4810.JPG');">
+                  <div class="descr">
+                      <h1>Our fitness center</h1>
+                      <p>Consectetur adipiscing elit.<br/>Suspendisse libero purus, porta in molestie malesuada, aliquam at ante.</p>
+                      <div class="descr_link"><a href="#">Take a look</a></div>
+                  </div>
+              </li>
+		  </ul>
+		</div>
+
+        <!-- About Section Start -->
+		<div class="services" id="overview">
+			<div class="services_center">
+				<div class="services_item first fl">
+					<div class="services_item_regular">					
+						<h3 class="services_item_title"><a href="#">Tailgate</a></h3>
+						<div class="services_backgr">
+							<p class="services_item_pic">
+								<a href="#">
+									<img src="css/images/services/football.png" alt="">
+								</a>
+							</p>
+							<div class="services_pic_line"> </div>
+							<p class="services_item_desc">
+							Be the life of the party before the game.
+							</p>
+						</div>
+					</div>
+					<div class="services_item_hover">
+						<h3 class="services_item_title_hover"><a href="#">Tailgate</a></h3>
+						<p class="services_item_pic_hover">
+							<a href="#">
+								<img src="http://placehold.it/156x156" alt="">
+							</a>
+						</p>
+						<p class="services_item_link_hover">
+							<a href="#">Pick up</a>
+						</p>
+					</div>
+				</div>
+				<div class="services_item second fl">
+					<div class="services_item_regular">					
+						<h3 class="services_item_title"><a href="#">Beach</a></h3>
+						<div class="services_backgr">
+							<p class="services_item_pic">
+								<a href="#">
+									<img src="css/images/services/flipflops.png" alt="">
+								</a>
+							</p>
+							<div class="services_pic_line"> </div>
+							<p class="services_item_desc">
+							Fun in the sun. Easy to carry to the beach.
+							</p>
+						</div>
+					</div>
+					<div class="services_item_hover">
+						<h3 class="services_item_title_hover"><a href="#">Beach</a></h3>
+						<p class="services_item_pic_hover">
+							<a href="#">
+								<img src="http://placehold.it/156x156" alt="">
+							</a>
+						</p>
+						<p class="services_item_link_hover">
+							<a href="#">Pick up</a>
+						</p>
+					</div>
+				</div>
+				<div class="services_item fl third">
+					<div class="services_item_regular">
+						<h3 class="services_item_title"><a href="#">Pool</a></h3>
+						<div class="services_backgr">
+							<p class="services_item_pic">
+								<a href="#">
+									<img src="css/images/services/pool.png" alt="">
+								</a>
+							</p>
+							<div class="services_pic_line"> </div>
+							<p class="services_item_desc">
+                                Giant sized pool-side entertainment.
+							</p>
+						</div>
+					</div>
+					<div class="services_item_hover">
+						<h3 class="services_item_title_hover"><a href="#">Pool</a></h3>
+						<p class="services_item_pic_hover">
+							<a href="#">
+								<img src="http://placehold.it/156x156" alt="">
+							</a>
+						</p>
+						<p class="services_item_link_hover">
+							<a href="#">Pick up</a>
+						</p>
+					</div>
+				</div>
+				<div class="services_item fl last">
+					<div class="services_item_regular">
+						<h3 class="services_item_title"><a href="#">Park</a></h3>
+						<div class="services_backgr">
+							<p class="services_item_pic">
+								<a href="#">
+									<img src="css/images/services/park.png" alt="">
+								</a>
+							</p>
+							<div class="services_pic_line"> </div>
+							<p class="services_item_desc">
+								Easy to set up, easy to play, enjoy the park.
+							</p>
+						</div>
+					</div>
+					<div class="services_item_hover">
+						<h3 class="services_item_title_hover"><a href="#">Park</a></h3>
+						<p class="services_item_pic_hover">
+							<a href="#">
+								<img src="http://placehold.it/156x156" alt="">
+							</a>
+						</p>
+						<p class="services_item_link_hover">
+							<a href="#">Pick up</a>
+						</p>
+					</div>
+				</div>
+				<div class="cf"></div>
+			</div>
+		</div>
+
+        <!-- Welcome Section Start -->
+		<div class="welcome" id="rules">
+			<h1>How to Play</h1>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <ol>
+                <li>Step one</li>
+                <li>Step two</li>
+                <li>Step three</li>
+            </ol>
+		</div>
+
+    <!-- Slider Section Start -->
+    <div class="flexslider" id="home-slider">
+        <ul class="slides">
+            <li style="background-image:url('css/images/title/IMG_4783.JPG');">
+                <div class="descr">
+                    <h1>Our fitness center</h1>
+                    <p>Consectetur adipiscing elit.<br/>Suspendisse libero purus, porta in molestie malesuada, aliquam at ante.</p>
+                    <div class="descr_link"><a href="#">Take a look</a></div>
+                </div>
+            </li>
+            <li style="background-image:url('css/images/title/IMG_4805.JPG');">
+                <div class="descr">
+                    <h1>Our fitness center</h1>
+                    <p>Consectetur adipiscing elit.<br/>Suspendisse libero purus, porta in molestie malesuada, aliquam at ante.</p>
+                    <div class="descr_link"><a href="#">Take a look</a></div>
+                </div>
+            </li>
+            <li style="background-image:url('css/images/title/IMG_4807.JPG');">
+                <div class="descr">
+                    <h1>Our fitness center</h1>
+                    <p>Consectetur adipiscing elit.<br/>Suspendisse libero purus, porta in molestie malesuada, aliquam at ante.</p>
+                    <div class="descr_link"><a href="#">Take a look</a></div>
+                </div>
+            </li>
+            <li style="background-image:url('css/images/title/IMG_4810.JPG');">
+                <div class="descr">
+                    <h1>Our fitness center</h1>
+                    <p>Consectetur adipiscing elit.<br/>Suspendisse libero purus, porta in molestie malesuada, aliquam at ante.</p>
+                    <div class="descr_link"><a href="#">Take a look</a></div>
+                </div>
+            </li>
+        </ul>
+    </div>
+        <!-- Testimonials Section Start -->
+		<div class="carousel_article" id="reviews">
+            <div class="carousel_article_title">
+                <a href="#"><h1>Reviews</h1></a></div>
+			<!--<div class="left_border_article"></div>-->
+			<div class="slider_articles">
+			  <ul class="slides">
+			    <li class="article_item">
+		      	<img class="article_pic" src="http://placehold.it/68x68" alt="">
+		      	<h1 class="article_title"><a href="#">Santa Millers</a></h1>
+		      	<p class="article_date">04 Jun 2013</p>
+		      	<div class="cf"></div>
+		      	<p class="article_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+			    </li>
+			   <li class="article_item">
+		      	<img class="article_pic" src="http://placehold.it/68x68" alt="">
+		      	<h1 class="article_title"><a href="#">Alex Socha</a></h1>
+		      	<p class="article_date">04 Jun 2013</p>
+		      	<div class="cf"></div>
+		      	<p class="article_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+			    </li>
+			    <li class="article_item">
+		      	<img class="article_pic" src="http://placehold.it/68x68" alt="">
+		      	<h1 class="article_title"><a href="#">Peter Smith</a></h1>
+		      	<p class="article_date">04 Jun 2013</p>
+		      	<div class="cf"></div>
+		      	<p class="article_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+			    </li>
+			    <li class="article_item">
+		      	<img class="article_pic" src="http://placehold.it/68x68" alt="">
+		      	<h1 class="article_title"><a href="#">Santa Millers</a></h1>
+		      	<p class="article_date">04 Jun 2013</p>
+		      	<div class="cf"></div>
+		      	<p class="article_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+			    </li>
+			    <li class="article_item">
+		      	<img class="article_pic" src="http://placehold.it/68x68" alt="">
+		      	<h1 class="article_title"><a href="#">Santa Millers</a></h1>
+		      	<p class="article_date">04 Jun 2013</p>
+		      	<div class="cf"></div>
+		      	<p class="article_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+			    </li>
+			  </ul>
+			</div>
+            <div class="slider_articles_mob">
+                <ul class="slides">
+                    <li class="article_item">
+                        <h1 class="article_title"><a href="#">Santa Millers</a></h1>
+                        <p class="article_date">04 Jun 2013</p>
+                        <div class="cf"></div>
+                        <p class="article_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                    </li>
+                    <li class="article_item">
+                        <h1 class="article_title"><a href="#">Santa Millers</a></h1>
+                        <p class="article_date">04 Jun 2013</p>
+                        <div class="cf"></div>
+                        <p class="article_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                    </li>
+                    <li class="article_item">
+                        <h1 class="article_title"><a href="#">Santa Millers</a></h1>
+                        <p class="article_date">04 Jun 2013</p>
+                        <div class="cf"></div>
+                        <p class="article_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                    </li>
+                    <li class="article_item">
+                        <h1 class="article_title"><a href="#">Santa Millers</a></h1>
+                        <p class="article_date">04 Jun 2013</p>
+                        <div class="cf"></div>
+                        <p class="article_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                    </li>
+                    <li class="article_item">
+                        <h1 class="article_title"><a href="#">Santa Millers</a></h1>
+                        <p class="article_date">04 Jun 2013</p>
+                        <div class="cf"></div>
+                        <p class="article_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+                    </li>
+                </ul>
+            </div>
+			<!--<div class="right_border_article"></div>	-->
+		</div>
+
+        <!-- Events Section Start -->
+		<!--<div class="background_fitness">
+			<div class="events_training">
+				<div class="events fl">
+					<h1 class="events_title"><a href="#">Upcoming events</a></h1>
+                    <div class="cf">
+                        <div class="events_item fl">
+                            <div class="events_item_pic">
+                                <a href="#"><img src="http://placehold.it/230x157" alt=""></a>
+                            </div>
+                            <div class="events_item_pic_hover">
+                                <p><a href="event_opened.html">View more</a></p>
+                            </div>
+                            <div>
+                                <ul class="events_item_date fl">
+                                    <li class="first_date">04</li>
+                                    <li>Jul</li>
+                                    <li>2013</li>
+                                </ul>
+                                <p class="events_item_line fl"> </p>
+                                <p class="events_item_desc fl">Lorem Ipsum is simply dummy text of the printing.</p>
+                                <div class="cf"></div>
+                            </div>
+                        </div>
+                        <div class="events_item fl">
+                            <div class="events_item_pic">
+                                <a href="#"><img src="http://placehold.it/230x157" alt=""></a>
+                            </div>
+                            <div class="events_item_pic_hover">
+                                <p><a href="event_opened.html">View more</a></p>
+                            </div>
+                            <div>
+                                <ul class="events_item_date fl">
+                                    <li class="first_date">04</li>
+                                    <li>Jul</li>
+                                    <li>2013</li>
+                                </ul>
+                                <p class="events_item_line fl"> </p>
+                                <p class="events_item_desc fl">Lorem Ipsum is simply dummy text of the printing.</p>
+                                <div class="cf"></div>
+                            </div>
+                        </div>
+                        <div class="events_item fl">
+                            <div class="events_item_pic">
+                                <a href="#"><img src="http://placehold.it/230x157" alt=""></a>
+                            </div>
+                            <div class="events_item_pic_hover">
+                                <p><a href="event_opened.html">View more</a></p>
+                            </div>
+                            <div>
+                                <ul class="events_item_date fl">
+                                    <li class="first_date">04</li>
+                                    <li>Jul</li>
+                                    <li>2013</li>
+                                </ul>
+                                <p class="events_item_line fl"> </p>
+                                <p class="events_item_desc fl">Lorem Ipsum is simply dummy text of the printing.</p>
+                                <div class="cf"></div>
+                            </div>
+                        </div>
+                        <div class="events_item fl">
+                            <div class="events_item_pic">
+                                <a href="#"><img src="http://placehold.it/230x157" alt=""></a>
+                            </div>
+                            <div class="events_item_pic_hover">
+                                <p><a href="event_opened.html">View more</a></p>
+                            </div>
+                            <div>
+                                <ul class="events_item_date fl">
+                                    <li class="first_date">04</li>
+                                    <li>Jul</li>
+                                    <li>2013</li>
+                                </ul>
+                                <p class="events_item_line fl"> </p>
+                                <p class="events_item_desc fl">Lorem Ipsum is simply dummy text of the printing.</p>
+                                <div class="cf"></div>
+                            </div>
+                        </div>
+                    </div>
+					<div class="cf"></div>
+				</div>
+				<div class="training fr">
+					<h1 class="training_title"><a href="#">Fitness Training on selection</a></h1>
+					<div class="training_video">
+					</div>
+					<p class="training_link">
+						Selection of individual program  <span>(Lorem Ipsum is simply dummy text )</span>
+					</p>
+					<h1 class="selection_title">Selection of individual program</h1>
+					<form>
+						<div class="select_program">
+							<select>
+								<option>I want to ...</option>
+								<option>Football</option>
+								<option>Basketball</option>
+								<option>Boxing</option>
+								<option>Volleyball</option>
+								<option>Tennis</option>
+								<option>Billiards</option>
+								<option>Running</option>
+								<option>Karate</option>
+								<option>Yoga</option>
+							</select>
+						</div>
+						<button class="select_program_button">Pick up</button>
+						<div class="cf"></div>
+					</form>
+				</div>
+				<div class="cf"></div>
+			</div>			
+		</div>-->
+
+        <!-- Classes Section Start -->
+		<!--<div class="upcoming_classes">
+			<h1 class="upcoming_classes_title">Upcoming classes</h1>
+			<div class="upcoming_classes_container" id="container">
+				<div class="item masonry1 fl">
+					<a href="gallery_opened.html"><img src="http://placehold.it/217x131" alt=""></a>
+					<div class="item_hover">
+						<h3>Upcoming classes</h3>
+						<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, iste sapiente enim sunt error deserunt distinctio illum vitae quae voluptatem odio quos incidunt quia dolor totam voluptas excepturi alias natus!</div>
+						<p><a href="gallery_opened.html">View more</a></p>
+					</div>
+				</div>
+				<div class="item masonry2 fl">
+					<a href="gallery_opened.html"><img src="http://placehold.it/279x131" alt=""></a>
+					<div class="item_hover">
+						<h3>Upcoming classes</h3>
+						<div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</div>
+						<p><a href="gallery_opened.html">View more</a></p>
+					</div>
+				</div>
+				<div class="item masonry3 fl">
+					<a href="gallery_opened.html"><img src="http://placehold.it/267x265" alt=""></a>
+					<div class="item_hover">
+						<h3>Upcoming classes</h3>
+						<div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</div>
+						<p><a href="gallery_opened.html">View more</a></p>
+					</div>
+				</div>
+				<div class="item masonry4 fl">
+					<a href="gallery_opened.html"><img src="http://placehold.it/209x161" alt=""></a>
+					<div class="item_hover">
+						<h3>Upcoming classes</h3>
+						<div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</div>
+						<p><a href="gallery_opened.html">View more</a></p>
+					</div>
+				</div>
+				<div class="item masonry5 fl">
+					<a href="gallery_opened.html"><img src="http://placehold.it/217x265" alt=""></a>
+					<div class="item_hover">
+						<h3>Upcoming classes</h3>
+						<div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</div>
+						<p><a href="gallery_opened.html">View more</a></p>
+					</div>
+				</div>
+				<div class="item masonry6 fl">
+					<a href="gallery_opened.html"><img src="http://placehold.it/279x131" alt=""></a>
+					<div class="item_hover">
+						<h3>Upcoming classes</h3>
+						<div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</div>
+						<p><a href="gallery_opened.html">View more</a></p>
+					</div>
+				</div>
+				<div class="item masonry7 fl">
+					<a href="gallery_opened.html"><img src="http://placehold.it/549x131" alt=""></a>
+					<div class="item_hover">
+						<h3>Upcoming classes</h3>
+						<div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</div>
+						<p><a href="gallery_opened.html">View more</a></p>
+					</div>
+				</div>
+				<div class="item masonry8 fl">
+					<a href="gallery_opened.html"><img src="http://placehold.it/209x234" alt=""></a>
+					<div class="item_hover">
+						<h3>Upcoming classes</h3>
+						<div>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the</div>
+						<p><a href="gallery_opened.html">View more</a></p>
+					</div>
+				</div>
+				<div class="cf"></div>
+			</div>
+            <div class="upcoming_classes_container_mob cf">
+                <div class="item fl">
+                    <a href="gallery_opened.html"><img src="http://placehold.it/410x250" alt=""></a>
+                    <div class="item_hover">
+                        <h3>Upcoming classes</h3>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, iste sapiente enim sunt error deserunt distinctio illum vitae quae voluptatem odio quos incidunt quia dolor totam voluptas excepturi alias natus!</div>
+                        <p><a href="gallery_opened.html">View more</a></p>
+                    </div>
+                </div>
+                <div class="item fl">
+                    <a href="gallery_opened.html"><img src="http://placehold.it/410x250" alt=""></a>
+                    <div class="item_hover">
+                        <h3>Upcoming classes</h3>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, iste sapiente enim sunt error deserunt distinctio illum vitae quae voluptatem odio quos incidunt quia dolor totam voluptas excepturi alias natus!</div>
+                        <p><a href="gallery_opened.html">View more</a></p>
+                    </div>
+                </div>
+                <div class="item fl">
+                    <a href="gallery_opened.html"><img src="http://placehold.it/410x250" alt=""></a>
+                    <div class="item_hover">
+                        <h3>Upcoming classes</h3>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, iste sapiente enim sunt error deserunt distinctio illum vitae quae voluptatem odio quos incidunt quia dolor totam voluptas excepturi alias natus!</div>
+                        <p><a href="gallery_opened.html">View more</a></p>
+                    </div>
+                </div>
+                <div class="item fl">
+                    <a href="gallery_opened.html"><img src="http://placehold.it/410x250" alt=""></a>
+                    <div class="item_hover">
+                        <h3>Upcoming classes</h3>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, iste sapiente enim sunt error deserunt distinctio illum vitae quae voluptatem odio quos incidunt quia dolor totam voluptas excepturi alias natus!</div>
+                        <p><a href="gallery_opened.html">View more</a></p>
+                    </div>
+                </div>
+                <div class="item fl">
+                    <a href="gallery_opened.html"><img src="http://placehold.it/410x250" alt=""></a>
+                    <div class="item_hover">
+                        <h3>Upcoming classes</h3>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, iste sapiente enim sunt error deserunt distinctio illum vitae quae voluptatem odio quos incidunt quia dolor totam voluptas excepturi alias natus!</div>
+                        <p><a href="gallery_opened.html">View more</a></p>
+                    </div>
+                </div>
+                <div class="item fl">
+                    <a href="gallery_opened.html"><img src="http://placehold.it/410x250" alt=""></a>
+                    <div class="item_hover">
+                        <h3>Upcoming classes</h3>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, iste sapiente enim sunt error deserunt distinctio illum vitae quae voluptatem odio quos incidunt quia dolor totam voluptas excepturi alias natus!</div>
+                        <p><a href="gallery_opened.html">View more</a></p>
+                    </div>
+                </div>
+                <div class="item fl">
+                    <a href="gallery_opened.html"><img src="http://placehold.it/410x250" alt=""></a>
+                    <div class="item_hover">
+                        <h3>Upcoming classes</h3>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, iste sapiente enim sunt error deserunt distinctio illum vitae quae voluptatem odio quos incidunt quia dolor totam voluptas excepturi alias natus!</div>
+                        <p><a href="gallery_opened.html">View more</a></p>
+                    </div>
+                </div>
+                <div class="item fl">
+                    <a href="gallery_opened.html"><img src="http://placehold.it/410x250" alt=""></a>
+                    <div class="item_hover">
+                        <h3>Upcoming classes</h3>
+                        <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, iste sapiente enim sunt error deserunt distinctio illum vitae quae voluptatem odio quos incidunt quia dolor totam voluptas excepturi alias natus!</div>
+                        <p><a href="gallery_opened.html">View more</a></p>
+                    </div>
+                </div>
+            </div>
+		</div>-->
+
+    <!-- Footer Section Start -->
+    <footer>
+		<div class="footer">
+			<div class="footer_center">
+				<!--<div class="footer_info">
+					<div class="footer_info_1 fl">
+						<div class="footer_info_1_pic fl">
+							<p class="pic_shadow"></p>
+						</div>
+						<div class="footer_info_1_title fl">
+							<h2>Senior Cards</h2>
+							<p>20% off the price</p>
+						</div>
+						<div class="cf"></div>
+					</div>
+					<div class="footer_info_2 fl">
+						<div class="footer_info_2_pic fl">
+							<p class="pic_shadow"></p>
+						</div>
+						<div class="footer_info_2_title fl">
+							<h2>26-28 May</h2>
+							<p>workout for free!</p>
+						</div>
+						<div class="cf"></div>
+					</div>
+					<div class="footer_info_3 fl">
+						<div class="footer_info_3_pic fl">
+							<p class="pic_shadow"></p>
+						</div>
+						<div class="footer_info_3_title fl">
+							<h2>Rooms For Rent</h2>
+							<p>call +123 655 655</p>
+						</div>
+						<div class="cf"></div>
+					</div>
+					<div class="cf"></div>
+				</div>-->
+				<div class="footer_gimnasio">
+					<div class="footer_signup fl">
+						<h1 class="footer_signup_title">About Us</h1>
+						<ul class="footer_text">
+                            <li>About TITANpong</li>
+                            <li>Campus Ambassador</li>
+                            <li>Social Responsibility</li>
+                            <li>Wholesale</li>
+                            <li>Group Pricing</li>
+                            <li>Special Projects and Events</li>
+                        </ul>
+					</div>
+					<div class="footer_news fl">
+						<h1 class="footer_news_title">Support</h1>
+                        <ul class="footer_text">
+                            <li>Shipping</li>
+                            <li>Returns</li>
+                            <li>Privacy Policy</li>
+                            <li>FAQ</li>
+                        </ul>
+					</div>
+					<div class="footer_contacts fl">
+						<h1 class="footer_contacts_title">Connect</h1>
+                        <div class="social_icons_center cf">
+                            <div class="icons_item">
+                                <p class="icons_item_background"><a class="twitter" href="#"></a></p>
+                                <p class="icons_item_background"><a class="facebook" href="#"></a></p>
+                                <p class="icons_item_background"><a class="pinterest" href="#"></a></p>
+                                <p class="icons_item_background"><a class="linkedin" href="#"></a></p>
+                                <p class="icons_item_background"><a class="instagram" href="#"></a></p>
+                            </div>
+                            <div class="cf"></div>
+                        </div>
+					</div>
+					<div class="cf"></div>
+				</div>
+			</div>
+		</div>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="js/libs/jquery-1.7.min.js"></script>
+    <script src="js/libs/jquery.flexslider-min.js"></script>
+    <script src="js/libs/masonry.pkgd.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+  </body>
+</html>
