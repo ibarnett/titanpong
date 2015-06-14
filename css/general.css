@@ -2289,7 +2289,7 @@ body {
   letter-spacing: 0.03em;
 }
 .event_qoute_desc:before {
-  content: "“";
+  content: "â€œ";
   color: #02604c;
   font-size: 56px;
   line-height: 56px;
@@ -2299,7 +2299,7 @@ body {
   left: -30px;
 }
 .event_qoute_desc:after {
-  content: "”";
+  content: "â€�";
   color: #02604c;
   font-size: 56px;
   font-family: 'Georgia';
